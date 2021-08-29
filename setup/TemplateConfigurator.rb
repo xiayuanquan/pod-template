@@ -30,6 +30,7 @@ module Pod
       clean_template_files
       customise_prefix
       rename_spec_files
+      reinitialize_git_repo
       run_pod_install
 
       @message_bank.farewell_message
@@ -82,6 +83,13 @@ module Pod
     #spec文件重命名
     def rename_spec_files
       File.rename("NAME.podspec", @pod_name + ".podspec")
+    end
+
+    #重新Git初始化
+    def reinitialize_git_repo
+      `rm -rf .git`
+      `git init`
+      `git add -A`
     end
 
     #验证用户信息
