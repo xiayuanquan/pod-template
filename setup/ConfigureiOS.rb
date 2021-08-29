@@ -17,7 +17,7 @@ module Pod
     def perform
 
       #默认值
-      prefix = "SH"
+      prefix = "XYQ"
 
       #调用ProjectManipulator类的方法，使用hash参数初始化
       Pod::ProjectManipulator.new({
