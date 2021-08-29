@@ -29,6 +29,21 @@ The pod-template officially provided is too cumbersome. I keep asking for answer
 3. Objc 和 Swift 不用区分大小写。
 
 
+# Screenshot
+
+## OC
+<img src="https://github.com/xiayuanquan/pod-template/blob/master/screenshots/screenshot-oc1.png" width="800" height="600">
+<img src="https://github.com/xiayuanquan/pod-template/blob/master/screenshots/screenshot-oc2.png" width="800" height="600">
+<!-- ![image](https://github.com/xiayuanquan/pod-template/blob/master/screenshots/screenshot-oc1.png) -->
+<!-- ![image](https://github.com/xiayuanquan/pod-template/blob/master/screenshots/screenshot-oc2.png) -->
+
+## Swift
+<img src="https://github.com/xiayuanquan/pod-template/blob/master/screenshots/screenshot-swift1.png" width="800" height="600">
+<img src="https://github.com/xiayuanquan/pod-template/blob/master/screenshots/screenshot-swift2.png" width="800" height="600">
+<!-- ![image](https://github.com/xiayuanquan/pod-template/blob/master/screenshots/screenshot-swift1.png) -->
+<!-- ![image](https://github.com/xiayuanquan/pod-template/blob/master/screenshots/screenshot-swift2.png) -->
+
+
 # ${POD_NAME}
 
 [![CI Status](https://img.shields.io/travis/${USER_NAME}/${REPO_NAME}.svg?style=flat)](https://travis-ci.org/${USER_NAME}/${REPO_NAME})
