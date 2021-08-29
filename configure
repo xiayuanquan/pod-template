@@ -10,8 +10,8 @@ end
 puts ''
 puts '------------------ Welcome && Useage------------------'
 puts ''
-puts 'if create OC Project, "./configure ProjectDemo ObjC" '.yellow
-puts 'if create Swift Project, "./configure ProjectDemo Swift" '.yellow
+puts 'if create OC Project, " pod lib create ProjectDemo ObjC --template-url="https://github.com/xiayuanquan/pod-template" " '.yellow
+puts 'if create Swift Project, " pod lib create ProjectDemo Swift --template-url="https://github.com/xiayuanquan/pod-template" " '.yellow
 puts ''
 
 # 获取参数
