@@ -49,7 +49,7 @@ module Pod
 
     #删除废弃文件
     def clean_template_files
-      ["configure", "templates", "setup"].each do |asset|
+      ["configure", "templates", "setup", "screenshots"].each do |asset|
         `rm -rf #{asset}`
       end
     end
