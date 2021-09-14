@@ -29,7 +29,7 @@ post_install do | installer |
          puts pod_native_target
          pod_native_target.build_configurations.each do |build_configuration|
            aggregate_build_settings = aggregate_build_settings_by_config[build_configuration.name]
-           build_configuration.build_settings['HEADER_SEARCH_PATHS'] = "\"${PODS_ROOT}/Headers/Public\" \"${PODS_ROOT}/Headers/Public/externalFrameworks\""
+           build_configuration.build_settings['HEADER_SEARCH_PATHS'] = "${PODS_ROOT}/Headers/Public"
            build_configuration.build_settings['FRAMEWORK_SEARCH_PATHS'] = aggregate_build_settings['FRAMEWORK_SEARCH_PATHS']
            build_configuration.build_settings['LIBRARY_SEARCH_PATHS'] = aggregate_build_settings['LIBRARY_SEARCH_PATHS']
          end
