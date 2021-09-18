@@ -32,11 +32,12 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Sources', 'Sources/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Sources' => ['Sources/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    '${POD_NAME}' => ['Sources/Classes/Resources/*']
+  }
 
-  # s.public_header_files = 'Sources/Classes/**/*.h'
+  s.public_header_files = 'Sources/Classes/**/*.h'
+
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

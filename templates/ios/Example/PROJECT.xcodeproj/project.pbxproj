@@ -79,8 +79,7 @@
         29C696E226DB57CF004F0946 /* Sources */ = {
             isa = PBXGroup;
             children = (
-                29C696E326DB57CF004F0946 /* Classes */,
-                29C696E526DB57CF004F0946 /* Assets */,
+                29C696E326DB57CF004F0946 /* Classes */
             );
             path = Sources;
             sourceTree = "<group>";
@@ -89,15 +88,16 @@
             isa = PBXGroup;
             children = (
                 29C696E426DB57CF004F0946 /* ReplaceMe.m */,
+                29C696E526DB57CF004F0946 /* Resources */,
             );
             path = Classes;
             sourceTree = "<group>";
         };
-        29C696E526DB57CF004F0946 /* Assets */ = {
+        29C696E526DB57CF004F0946 /* Resources */ = {
             isa = PBXGroup;
             children = (
             );
-            path = Assets;
+            path = Resources;
             sourceTree = "<group>";
         };
 		6003F581195388D10070C39A = {
